@@ -1,1 +1,15 @@
 Descripción del proyecto
+
+El juego de la vida es un juego matemático hecho por John Horton Conway en 1970. 
+Consiste en un tablero donde el número de columnas y el número de filas pueden ser definidas por el usuario. El tablero está compuesto por casillas, las cuáles las conoceremos como células.
+Hay dos tipos de células:
+Células muertas, estas se representan con un ‘.’
+Células vivas, estas se representan con un ‘■’ o ‘@’.
+Cuando comienza el juego se inicia con un número aleatorio de células vivas en posiciones aleatorias. Conforme avanza el tiempo las células van cambiando conforme a las siguientes reglas:
+Para que una célula siga viva, tiene que tener 2 o 3 vecinas.
+Si tiene más de 3 vecinas MUERE por sobrepoblación.
+Si tiene menos de 2, MUERE de soledad.
+Si una célula está muerta y tiene 3 vecinas vivas. REVIVE.
+Utilizando lo aprendido hasta ahorita en el lenguaje de programación C, programa el juego de la vida utilizando funciones, arreglos, punteros y números aleatorios.
+
+En parejas, de preferencia usen git y GitHub para que aprendan a usar las herramientas, y no tengan problemas al juntar codigo.
